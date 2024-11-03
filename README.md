@@ -1,4 +1,4 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Coinsearch Extension
+# <img src="public/icons/icon_256.png" width="45" align="left"> Coinsearch Extension
 
 A Chrome extension that allows you to quickly search for cryptocurrencies on CoinMarketCap and X (Twitter) directly from any webpage.
 

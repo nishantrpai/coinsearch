@@ -14,6 +14,4 @@ A Chrome extension that allows you to quickly search for cryptocurrencies on Coi
 1. Clone this repository or download the ZIP file
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" in the top right corner
-4. Click "Load unpacked" and select the `coinsearch-extension` folder
-
-## Technical Details
+4. Click "Load unpacked" and select the `coinsearch-extension` folder, double click, select "build"

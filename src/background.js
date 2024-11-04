@@ -25,6 +25,9 @@ if (chrome && chrome.runtime) {
     } else if (info.menuItemId === "checkXTwitter" && info.selectionText) {
       const word = encodeURIComponent(info.selectionText);
       chrome.tabs.create({ url: `https://x.com/search?q=$${word}&src=typed_query&f=top` });
+    } else if (info.menuItemId === "checkDexScreener" && info.selectionText) {
+      const word = encodeURIComponent(info.selectionText);
+      chrome.tabs.create({ url: `https://dexscreener.com/search?q=${word}` });
     } else {
       console.log('Standard context menu item clicked.');
     }
@@ -41,6 +44,12 @@ if (chrome && chrome.runtime) {
     chrome.contextMenus.create({
       id: "checkXTwitter",
       title: "Check '%s' on X (Twitter)",
+      contexts: ["all"]
+    });
+
+    chrome.contextMenus.create({
+      id: "checkDexScreener",
+      title: "Check '%s' on DexScreener",
       contexts: ["all"]
     });
   });

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Coinsearch Extension",
+  "name": "Coinsearch",
   "version": "0.1.0",
   "description": "An extension to search for coins on CoinMarketCap and X (Twitter)",
   "icons": {
